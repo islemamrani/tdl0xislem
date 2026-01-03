@@ -1,0 +1,98 @@
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans';
+    margin: 0;
+    padding: 20px 0 50px 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+}
+
+button, input {
+    outline: none;
+    background-color: none;
+    border: none;
+    font-family: inherit;
+}
+
+button:focus, input:focus {
+    outline: none;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.container {
+    min-height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 50px;
+}
+
+.add-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 800px;
+    margin-top: 250px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+}
+
+.task {
+    border: 1px solid black;
+    height: 50px;
+    width: 70%;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.add {
+    padding: 15px;
+    border-radius: 25px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.tasks-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 90%;
+    max-width: 800px;
+    padding: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    border-radius: 10px;
+}
+
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 10px;
+}
+
+.buttons-container button {
+    font-size: 20px;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: black;
+}
+
+.removed {
+    text-decoration: line-through;
+}
