@@ -57,6 +57,7 @@ button:hover {
 }
 
 .add {
+    color: black;
     padding: 15px;
     border-radius: 25px;
     background-color: white;
